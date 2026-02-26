@@ -5,7 +5,7 @@ jobs:
           runs-on: windows-latest
           steps:
           -name: Demo step
-           run: echo "Welcome to Github Actions"
+          run: echo "Welcome to Github Actions"
 
           
 
