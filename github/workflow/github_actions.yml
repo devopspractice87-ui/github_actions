@@ -1,0 +1,9 @@
+name: first workflow
+on: push
+jobs:
+     first_job:
+          runs-on: windows-latest
+          steps:
+          -name: Demo step
+           run: echo "welcome to Github Actions"
+          
