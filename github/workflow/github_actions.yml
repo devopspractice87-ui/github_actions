@@ -2,7 +2,7 @@ name: first workflow
 on: push
 jobs:
      first_job:
-          runs-on: windows-latest
+          runs-on: ubantu-latest
           steps:
           -name: Demo step
            run: echo "welcome to Github Actions"
