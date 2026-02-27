@@ -5,13 +5,10 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: Demo Step
-     run: echo "Welcome to Github Actions"
-     
+     run: echo "Welcome to Github Actions"     
    - name: Checkout Repo
      uses: actions/checkout@v6
-
    - name: List files
      run: ls
-
    - name: Print Readme
      run: cat README.md
